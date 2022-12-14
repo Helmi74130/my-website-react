@@ -1,0 +1,24 @@
+.section{
+  position: relative;
+}
+.background:after {
+  content: "";
+  z-index: -10;
+  position: absolute;
+  height: 130%;
+  width: 80%;
+  top: -40%;
+  left: -30%;
+  background-color: #001e3c;
+  animation: rotate infinite linear;
+}
+.background:after {
+  border-radius: 50%;
+  animation-duration: 50s;
+}
+
+@keyframes rotate {
+  0% {}
+  50% {}
+  100% {}
+}
